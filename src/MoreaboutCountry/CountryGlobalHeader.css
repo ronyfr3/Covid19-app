@@ -1,0 +1,82 @@
+.more-aboutcountry {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 652px;
+  top: 165px;
+  left: 100px;
+  user-select: none;
+  text-transform: capitalize;
+}
+.countrymoreabout {
+  margin-left: 28px;
+  font-size: 18px;
+  font-weight: 599;
+  letter-spacing: 0.7px;
+}
+.worldmoreabout {
+  font-size: 18px;
+  font-weight: 599;
+  letter-spacing: 0.7px;
+  position: relative;
+  left: 27px;
+}
+/* mobile */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .more-aboutcountry {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 220px;
+    top: 5px;
+    left: 0;
+  }
+  .worldmoreabout {
+    position: relative;
+    top: 150px;
+    font-size: 16px;
+  }
+}
+/* ipad */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .more-aboutcountry {
+    position: relative;
+    width: 100%;
+    top: -20px;
+    left: 0px;
+  }
+  .worldmoreabout {
+    font-size: 20px;
+    position: relative;
+    left: -325px;
+  }
+  .countrymoreabout {
+    position: relative;
+    left: 0px;
+    font-size: 20px;
+  }
+}
+/* ipad pro */
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  .more-aboutcountry {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0px;
+  }
+  .worldmoreabout {
+    font-size: 20px;
+    position: relative;
+    left: -755px;
+  }
+  .countrymoreabout {
+    position: relative;
+    left: 40px;
+    font-size: 20px;
+  }
+}
+/* desktop */
+@media only screen and (min-width: 1281px) {
+}

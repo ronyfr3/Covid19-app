@@ -1,0 +1,154 @@
+.search-input {
+  outline: none;
+  width: 725px;
+  padding: 15px;
+  margin: 50px 15px 0 0;
+  background-color: #b4cec5;
+  border: 1px solid rgb(93, 205, 224);
+  font-size: 16px;
+  font-family: 'Archivo Narrow', sans-serif;
+  letter-spacing: 1px;
+}
+.serach {
+  position: relative;
+}
+.search form {
+  position: absolute;
+  left: 125px;
+}
+.search-submit {
+  width: 130px;
+  height: 52px;
+  background-color: #373434;
+  outline: none;
+  color: white;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 1px;
+  font-family: 'Archivo Narrow', sans-serif;
+}
+/* edit placeholder */
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: rgb(70, 68, 68);
+  font-family: "Newsreader", serif;
+  padding-left: 20px;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: rgb(70, 68, 68);
+  font-family: "Newsreader", serif;
+  padding-left: 20px;
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: rgb(70, 68, 68);
+  font-family: "Newsreader", serif;
+  padding-left: 20px;
+}
+:-moz-placeholder {
+  /* Firefox 18- */
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: rgb(70, 68, 68);
+  font-family: "Newsreader", serif;
+  padding-left: 20px;
+}
+
+
+/* mobile */
+@media only screen  and (min-width:320px) and (max-width:480px){
+  .search form{
+    position: relative;
+    left: 0;
+  }
+    .search-input{
+      position: relative;
+      left: 50px;
+      width: 150px;
+      height: 5px;
+      font-size: 15px;
+    }
+    .search-submit{
+      position: relative;
+      left: 55px;
+      width: 80px;
+      height: 38px;
+      background-color: #373434;
+      outline: none;
+      color: white;
+      font-size: 17px;
+      border: none;
+    }
+}
+/* ipad */
+@media only screen and (min-width:768px ) and (max-width:1024px)
+{
+  .search form{
+    position: relative;
+    left: 20px;
+  }
+    .search-input{
+      position: relative;
+      left: 50px;
+      width: 250px;
+      height: 17px;
+      font-size: 17px;
+    }
+    .search-submit{
+      position: relative;
+      left: 55px;
+      width: 120px;
+      height: 50px;
+      background-color: #373434;
+      outline: none;
+      color: white;
+      font-size: 18px;
+      border: none;
+    }
+}
+/* ipad pro */
+@media only screen and (min-width:1024px) and (max-width:1366px)
+{
+  .search form{
+    position: relative;
+    left: 100px;
+  }
+    .search-input{
+      position: relative;
+      left: 50px;
+      width: 300px;
+      height: 20px;
+      font-size: 17px;
+    }
+    .search-submit{
+      position: relative;
+      left: 55px;
+      width: 130px;
+      height: 55px;
+      background-color: #373434;
+      outline: none;
+      color: white;
+      font-size: 18px;
+      border: none;
+    }
+}
+/* desktop */
+@media only screen and (min-width:1281px)
+{
+  .search-input{
+    position: relative;
+    left: 50px;
+    width: 500px;
+    height: 20px;
+    font-size: 17px;
+  }
+  
+}

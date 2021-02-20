@@ -1,0 +1,17 @@
+.prevention{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto;
+    user-select: none;
+    text-transform: capitalize;
+}
+.prevention p{
+    line-height: 30px;
+    font-size: 16px;
+    word-spacing: 1px;
+}
+.prevention h3{
+    font-size: 20px;
+}

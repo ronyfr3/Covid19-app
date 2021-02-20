@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Newsreader:ital@1&display=swap');
+*{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #F2FAEF;
+  font-family: 'Archivo Narrow', sans-serif;
+  /* font-family: 'Newsreader', serif; */
+}
+/* width */
+::-webkit-scrollbar {
+  width: 17px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+ background: #d9a7c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+border-radius:10px;
+  background: #cdcf32;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #06c797, #1B3332);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #26d8df, #1B3332); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+

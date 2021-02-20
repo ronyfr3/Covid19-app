@@ -1,0 +1,121 @@
+.recent{
+    width: 300px;
+    position: relative;
+    left: 900px;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.recentsearches{
+    background-color: #1B3332;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    user-select: none;
+}
+.localdata{
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: -20px;
+    border: 2px solid #1B3332;
+    padding: 8px 0 5px 15px;
+    font-size: 17px;
+    letter-spacing: 1px;
+    background-color: rgb(0,0,0,0.1);
+    user-select: none;
+}
+/* mobile */
+@media only screen  and (min-width:320px) and (max-width:480px){
+    .recent{
+        width: 150px;
+        position: relative;
+        left: 38px;
+        top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .localdata{
+        width: 90px;
+        height: 100%;
+        padding: 5px 0 5px 5px;
+        position: relative;
+        top: -55px;
+        left: 120px;
+        border-radius: 3px;
+        font-size: 12px;
+    }
+    .recentsearches{
+        padding: 5px;
+        font-size: 14px;
+    }
+}
+/* ipad */
+@media only screen and (min-width:768px ) and (max-width:1024px)
+{
+    .recent{
+        width: 180px;
+        position: relative;
+        left: 520px;
+        top: -60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .localdata{
+        width: 100px;
+        height: 100%;
+        padding: 5px 0 5px 5px;
+        position: relative;
+        top: -15px;
+        font-size: 17px;
+    }
+    .recentsearches{
+        padding: 8px;
+    }
+}
+/* ipad pro */
+@media only screen and (min-width:1024px) and (max-width:1366px)
+{
+    .recent{
+        width: 200px;
+        position: relative;
+        left: 620px;
+        top: -70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .localdata{
+        width: 100px;
+        height: 100%;
+        padding: 5px 0 5px 5px;
+        position: relative;
+        top: -15px;
+        font-size: 17px;
+    }
+    .recentsearches{
+        padding: 10px;
+    }
+}
+/* desktop */
+@media only screen and (min-width:1281px)
+{
+    .recent{
+        width: 200px;
+        position: relative;
+        left: 750px;
+        top: -70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

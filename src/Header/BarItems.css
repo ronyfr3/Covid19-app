@@ -1,0 +1,22 @@
+.baritems {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #474747;
+  text-transform: capitalize;
+  width: 100%;
+  height: 40px;
+}
+.baritems a {
+  color: white;
+  cursor: pointer;
+  border: 2px solid white;
+  font-size: 14px;
+  padding: 2px 5px 2px 5px;
+  border-radius: 2px;
+}
+.baritems a:hover {
+  background-color: #19615e;
+  transform: scale(1.1);
+  border-radius: 2px;
+}
